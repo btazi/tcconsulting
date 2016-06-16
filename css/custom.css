@@ -1,4 +1,20 @@
+/* adjust logo */
 #section-about img#about-logo {
 	width: 80%; 
 	margin: 0 auto;
+}
+
+/* justify text */
+p, .justified {
+  	text-align: justify;
+    text-justify: inter-word;
+}
+
+/* change icons color */
+.dark .feature-box.fbox-border.fbox-light .fbox-icon i, .dark .feature-box.fbox-border.fbox-light .fbox-icon img, .dark .feature-box.fbox-border.fbox-dark .fbox-icon i, .dark .feature-box.fbox-border.fbox-dark .fbox-icon img, .dark .feature-box.fbox-plain.fbox-light .fbox-icon i, .dark .feature-box.fbox-plain.fbox-light .fbox-icon img, .dark .feature-box.fbox-plain.fbox-dark .fbox-icon i, .dark .feature-box.fbox-plain.fbox-dark .fbox-icon img {
+	color: #b9403c;
+}
+
+.dark .feature-box h3 {
+	color: #b9403c;
 }
