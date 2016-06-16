@@ -12,9 +12,18 @@ p, .justified {
 
 /* change icons color */
 .dark .feature-box.fbox-border.fbox-light .fbox-icon i, .dark .feature-box.fbox-border.fbox-light .fbox-icon img, .dark .feature-box.fbox-border.fbox-dark .fbox-icon i, .dark .feature-box.fbox-border.fbox-dark .fbox-icon img, .dark .feature-box.fbox-plain.fbox-light .fbox-icon i, .dark .feature-box.fbox-plain.fbox-light .fbox-icon img, .dark .feature-box.fbox-plain.fbox-dark .fbox-icon i, .dark .feature-box.fbox-plain.fbox-dark .fbox-icon img {
-	color: #b9403c;
+	color: #d25854;
 }
 
 .dark .feature-box h3 {
-	color: #b9403c;
+	color: #d25854;
 }
+
+.feature-box.fbox-center.fbox-plain.fbox-small p {
+	color: #d6d6d6;
+}
+
+::-webkit-input-placeholder { color:#d6d6d6 !important; }
+::-moz-placeholder { color:#d6d6d6 !important; } /* firefox 19+ */
+:-ms-input-placeholder { color:#d6d6d6 !important; } /* ie */
+input:-moz-placeholder { color:#d6d6d6 !important; }
