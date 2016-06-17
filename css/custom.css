@@ -27,3 +27,7 @@ p, .justified {
 ::-moz-placeholder { color:#d6d6d6 !important; } /* firefox 19+ */
 :-ms-input-placeholder { color:#d6d6d6 !important; } /* ie */
 input:-moz-placeholder { color:#d6d6d6 !important; }
+
+.device-xxs .opm-large-word {
+    font-size: 40px !important;
+	}
